@@ -1,0 +1,392 @@
+@font-face{
+    font-family: 'pacifico';
+    src:url(https://assets.codepen.io/5660828/pacifico-regular-webfont.woff);
+  }
+  
+  @font-face{
+    font-family: 'raleway';
+    src:url(https://assets.codepen.io/5660828/raleway-variablefont_wght-webfont.woff);
+  }
+  
+  @font-face{
+    font-family: 'raleway-medium';
+    src:url(https://assets.codepen.io/5660828/Raleway-Medium.woff);
+  }
+  
+  body{
+    background:#FFFBF0;
+    margin: 0 auto;
+  }
+  
+  /*nav*/
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5A443F;
+    padding: 3px 25px;
+  }
+  
+  nav{
+    height: 55px;
+  }
+  
+  ul {
+   display: flex;
+   list-style:none;
+  }
+  
+  li a{
+    text-decoration:none;
+    color: #FFFBF0;
+    font-family:'raleway';
+    padding: 0 10px;
+  }
+  
+  li a:hover{
+    color: rgb(193, 222, 165)
+  }
+  
+  input{
+    height:25px;
+    width: 225px;
+    border-radius: 50px;
+    border-style: none;
+    background: #FFFBF0;
+    padding-left:15px;
+    font-family: 'raleway-medium';
+  }
+  
+  ::-webkit-input-placeholder {
+   color: #5A443F;
+  }
+  
+  /* Hero section */
+  
+  .hero {
+    height: 83vh;
+    background-image: url("https://assets.codepen.io/5660828/hero4edit.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+  }
+  
+  .hero h2 {
+    margin: 0;
+    font-family: 'raleway';
+    color: #FFFBF0;
+    font-size:26px;
+    font-weight: 100;
+    position: relative;
+    top:95px;
+    right: 10px;
+  }
+  
+  .hero h1 {
+    font-family: 'pacifico';
+    font-size: 110pt;
+    margin: 0;
+    color: #FFFBF0;
+    font-weight: 100;
+    padding-bottom: 15px;
+  }
+  
+  .herocircle {
+    background: black;
+    height: 45px;
+    width: 45px;
+    border-radius:50%;
+    position: absolute;
+    bottom: 17px;
+    background: #FFFBF0;
+  }
+  
+  .herocircle img{
+    width:25px;
+    border-radius:30px;
+    padding-top:8px;
+    padding-left:11px;
+  }
+  
+  /*section 1*/
+  
+  section{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    justify-content:center;
+    
+  }
+  section h1{
+    font-family: 'pacifico';
+    font-weight:100;
+    font-size: 35px;
+    margin-bottom: 0;
+    color: #E06342;
+  }
+  
+  .content {
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 55px;
+  
+  }
+  
+  section p{
+    font-family:'raleway';
+    width: 250px;
+    font-size: 16px;
+    margin-top:0;
+    padding-top:10px;
+  }
+  
+  section img{
+    width: 375px;
+    height: 100%;
+    
+  }
+  
+  .sidepic {
+    position: absolute;
+    margin-top: -225px;
+    right: 50px;
+  }
+  .sidepic img {
+    width: 160px;
+  }
+  
+  /*cards*/
+  
+  .cards{
+    padding-left: 100px;
+  }
+  
+  .cards p{
+    font-family: 'raleway';
+    font-size:13px;
+  
+  }
+  
+  .cards h1{
+    color: rgb(193, 222, 165);
+    font-family: 'raleway-medium';
+  }
+  
+  .card1{
+    background: #fff;
+    width: 750px;
+    height: 300px;
+    display:flex;
+    border-radius: 22px;
+    filter: drop-shadow(10px 8px 8px #E6E2D8);
+  }
+  
+  .card1info{
+    padding-left: 45px;
+  }
+  
+  .card1 img{
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+    border-radius: 70%;
+    margin-left: 35px;
+    margin-top:25px;
+    margin-bottom: 25px;
+  }
+  
+  .card1 h1{
+    font-family: 'raleway-medium';
+    font-weight:100;
+    margin-top: 0;
+    padding-top: 40px;
+  }
+  
+  .card1 p{
+    width: 370px;
+    padding-bottom: 20px;
+  }
+  
+  .card2{
+    background: #fff;
+    width: 750px;
+    height: 300px;
+    display:flex;
+    border-radius: 22px;
+    filter: drop-shadow(10px 8px 8px #E6E2D8);
+    margin-top: 50px;
+    margin-bottom:50px;
+  }
+  
+  .card2 h1{
+    font-family: 'raleway-medium';
+    font-weight:100;
+    margin-top: 0;
+    padding-top: 40px;
+    color: rgb(193, 222, 165);
+    padding-left: 128px;
+  }
+  
+  .card2 p{
+    width: 360px;
+    padding-bottom: 20px;
+  }
+  
+  .card2 img{
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin-right: 35px;
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-left: 45px;
+  }
+  
+  .card3 {
+    background: #fff;
+    width: 750px;
+    height: 300px;
+    display:flex;
+    border-radius: 22px;
+    filter: drop-shadow(10px 8px 8px #E6E2D8);
+  }
+  
+  .card3 img{
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+    border-radius: 70%;
+    margin-left: 35px;
+    margin-top:25px;
+    margin-bottom: 25px;
+  }
+  
+  .card3 p{
+    width: 370px;
+    padding-bottom: 20px;
+  }
+  .card3 h1 {
+    font-family: 'raleway-medium';
+    font-weight:100;
+    margin-top: 0;
+    padding-top: 40px;
+    color: rgb(193, 222, 165);
+  }
+  
+  /* carousel */
+  
+  .main-carousel {
+    margin-bottom: 95px;
+    margin-top: 230px;
+  }
+  .carousel-cell {
+    width: 400px; /* full width */
+    height: 255px; /* height of carousel */
+    padding-right: 10px;
+    background:#AFBCE7;
+    text-align:center;
+  }
+  
+  .carousel-cell.is-selected {
+    background: #E32C5D;
+  }
+  
+  /* white circles */
+  .flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid none;
+  }
+  /* fill-in selected dot */
+  .flickity-page-dots .dot.is-selected {
+    background: #FFFBF0;
+  }
+  
+  /*recipe blocks*/  
+  .recipes{
+    text-align:center;
+    padding-bottom: 80px;
+  }
+  
+  .recipes h1{
+    font-family:'pacifico';
+    font-weight:100;
+    font-size: 35px;
+    color: #E06342;
+  }
+  
+  .container{
+    width: 610px;
+    margin: 0 auto;
+  }
+  
+  .overlay-container{
+    position: relative;
+    width: 200px;
+    height:200px;
+    overflow: hidden;
+    display: inline-block;
+    padding:5px
+  }
+  
+  .image {
+    display: block;
+    width:100%;
+    height: 200px;
+    object-fit:cover;
+    border-radius:12px;
+  }
+  
+  .overlay-top{
+    width:100%;
+    height: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .overlay-container:hover .overlay-top {
+    height: 100%;
+  }
+  
+  .text{
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    transition: translate(-50%,-50%);
+    font-family: 'raleway-medium';
+    font-weight:bold;
+    color: #5A443F;
+  
+  } 
+  
+  input .search{
+    padding-left: 10px;
+  }
+    
+  .overlay {
+    position: absolute;
+    transition: all 800ms ease;
+    background:rgba(193, 222, 165, .75);
+    opacity: 0;
+    border-radius:12px;
+  }
+  
+  .overlay-container:hover .overlay {
+    opacity:1;
+  }
+  
+/*footer*/
+footer {
+background: #5A443F;
+margin-bottom: 0px;
+height: 95px;
+}
