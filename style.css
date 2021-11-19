@@ -1,18 +1,5 @@
-@font-face{
-    font-family: 'pacifico';
-    src:url(https://assets.codepen.io/5660828/pacifico-regular-webfont.woff);
-  }
-  
-  @font-face{
-    font-family: 'raleway';
-    src:url(https://assets.codepen.io/5660828/raleway-variablefont_wght-webfont.woff);
-  }
-  
-  @font-face{
-    font-family: 'raleway-medium';
-    src:url(https://assets.codepen.io/5660828/Raleway-Medium.woff);
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@100;400;500&display=swap');
+
   body{
     background:#FFFBF0;
     margin: 0 auto;
@@ -39,7 +26,7 @@
   li a{
     text-decoration:none;
     color: #FFFBF0;
-    font-family:'raleway';
+    font-family: 'Raleway', sans-serif;
     padding: 0 10px;
   }
   
@@ -49,12 +36,13 @@
   
   input{
     height:25px;
-    width: 225px;
+    width: 250px;
     border-radius: 50px;
     border-style: none;
     background: #FFFBF0;
     padding-left:15px;
-    font-family: 'raleway-medium';
+    font-family: 'Raleway';
+    font-weight: 500;
   }
   
   ::-webkit-input-placeholder {
@@ -86,7 +74,7 @@
   }
   
   .hero h1 {
-    font-family: 'pacifico';
+font-family: 'Pacifico', cursive;
     font-size: 110pt;
     margin: 0;
     color: #FFFBF0;
@@ -171,9 +159,10 @@
   
   }
   
-  .cards h1{
+  .cards h1 {
     color: rgb(193, 222, 165);
-    font-family: 'raleway-medium';
+    font-family: 'Raleway', sans-serif;
+    font-weight: ;
   }
   
   .card1{
