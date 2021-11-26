@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@100;300;400;500&display=swap');
 
   body{
     background:#FFFBF0;
@@ -162,7 +162,7 @@ font-family: 'Pacifico', cursive;
   .cards h1 {
     color: rgb(193, 222, 165);
     font-family: 'Raleway', sans-serif;
-    font-weight: ;
+    font-weight: 500;
   }
   
   .card1{
@@ -189,7 +189,6 @@ font-family: 'Pacifico', cursive;
   }
   
   .card1 h1{
-    font-family: 'raleway-medium';
     font-weight:100;
     margin-top: 0;
     padding-top: 40px;
