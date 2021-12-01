@@ -22,7 +22,7 @@
    display: flex;
    list-style:none;
   }
-  
+
   li a{
     text-decoration:none;
     color: #FFFBF0;
@@ -31,7 +31,7 @@
   }
   
   li a:hover{
-    color: rgb(193, 222, 165)
+    color: rgb(193, 222, 165);
   }
   
   input{
@@ -41,16 +41,18 @@
     border-style: none;
     background: #FFFBF0;
     padding-left:15px;
-    font-family: 'Raleway';
-    font-weight: 500;
   }
   
   ::-webkit-input-placeholder {
    color: #5A443F;
+   font-family: 'Raleway';
+   font-weight: 500;
+   font-size: 10pt;
   }
   
   /* Hero section */
   
+  /*
   .hero {
     height: 83vh;
     background-image: url("https://assets.codepen.io/5660828/hero4edit.png");
@@ -61,6 +63,21 @@
     align-items: center;
     background-position: center;
   }
+  */
+
+  .hero { 
+    height: 83vh;
+    background-image: url("https://assets.codepen.io/5660828/hero4edit.png");
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   .hero h2 {
     margin: 0;
@@ -70,7 +87,7 @@
     font-weight: 100;
     position: relative;
     top:95px;
-    right: 10px;
+    right: 12px;
   }
   
   .hero h1 {
@@ -88,7 +105,7 @@ font-family: 'Pacifico', cursive;
     width: 45px;
     border-radius:50%;
     position: absolute;
-    bottom: 17px;
+    bottom: -22px;
     background: #FFFBF0;
   }
   
@@ -130,6 +147,8 @@ font-family: 'Pacifico', cursive;
     font-size: 16px;
     margin-top:0;
     padding-top:10px;
+    color: #5A443F;
+    line-height: 1.4;
   }
   
   section img{
@@ -150,7 +169,7 @@ font-family: 'Pacifico', cursive;
   /*cards*/
   
   .cards{
-    padding-left: 100px;
+    padding-left: 125px;
   }
   
   .cards p{
@@ -161,14 +180,12 @@ font-family: 'Pacifico', cursive;
   
   .cards h1 {
     color: rgb(193, 222, 165);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
   }
   
   .card1{
     background: #fff;
-    width: 750px;
-    height: 300px;
+    width: 800px;
+    height: 325px;
     display:flex;
     border-radius: 22px;
     filter: drop-shadow(10px 8px 8px #E6E2D8);
@@ -183,45 +200,47 @@ font-family: 'Pacifico', cursive;
     height: 250px;
     object-fit:cover;
     border-radius: 70%;
-    margin-left: 35px;
-    margin-top:25px;
-    margin-bottom: 25px;
+    margin-left: 40px;
+    margin-top: 37px;
   }
   
   .card1 h1{
-    font-weight:100;
     margin-top: 0;
     padding-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
   }
   
   .card1 p{
-    width: 370px;
-    padding-bottom: 20px;
+    width: 415px;
+    font-size: 11pt;
+    color: #5A443F;
   }
   
   .card2{
     background: #fff;
-    width: 750px;
-    height: 300px;
+    width: 800px;
+    height: 325px;
     display:flex;
     border-radius: 22px;
     filter: drop-shadow(10px 8px 8px #E6E2D8);
-    margin-top: 50px;
-    margin-bottom:50px;
+    margin-top: 60px;
+    margin-bottom:60px;
   }
   
   .card2 h1{
-    font-family: 'raleway-medium';
-    font-weight:100;
     margin-top: 0;
     padding-top: 40px;
     color: rgb(193, 222, 165);
-    padding-left: 128px;
+    padding-left: 175px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
   }
   
   .card2 p{
-    width: 360px;
-    padding-bottom: 20px;
+    width: 415px;
+    font-size: 11pt;
+    color: #5A443F;
   }
   
   .card2 img{
@@ -230,15 +249,15 @@ font-family: 'Pacifico', cursive;
     object-fit:cover;
     border-radius: 50%;
     margin-right: 35px;
-    margin-top:25px;
+    margin-top: 37px;
     margin-bottom: 25px;
     margin-left: 45px;
   }
   
   .card3 {
     background: #fff;
-    width: 750px;
-    height: 300px;
+    width: 800px;
+    height: 325px;
     display:flex;
     border-radius: 22px;
     filter: drop-shadow(10px 8px 8px #E6E2D8);
@@ -249,21 +268,21 @@ font-family: 'Pacifico', cursive;
     height: 250px;
     object-fit:cover;
     border-radius: 70%;
-    margin-left: 35px;
-    margin-top:25px;
-    margin-bottom: 25px;
+    margin-left: 40px;
+    margin-top: 37px;
   }
   
   .card3 p{
-    width: 370px;
-    padding-bottom: 20px;
+    width: 415px;
+    font-size: 11pt;
+    color: #5A443F;
   }
   .card3 h1 {
-    font-family: 'raleway-medium';
-    font-weight:100;
     margin-top: 0;
     padding-top: 40px;
     color: rgb(193, 222, 165);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
   }
   
   /* carousel */
@@ -330,6 +349,7 @@ font-family: 'Pacifico', cursive;
     height: 200px;
     object-fit:cover;
     border-radius:12px;
+    cursor:pointer;
   }
   
   .overlay-top{
@@ -349,9 +369,8 @@ font-family: 'Pacifico', cursive;
     text-align: center;
     width: 100%;
     font-size: 20px;
-    transition: translate(-50%,-50%);
-    font-family: 'raleway-medium';
-    font-weight:bold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     color: #5A443F;
   
   } 
@@ -366,6 +385,7 @@ font-family: 'Pacifico', cursive;
     background:rgba(193, 222, 165, .75);
     opacity: 0;
     border-radius:12px;
+    cursor:pointer;
   }
   
   .overlay-container:hover .overlay {
