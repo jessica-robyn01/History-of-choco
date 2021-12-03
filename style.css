@@ -392,6 +392,14 @@ font-family: 'Pacifico', cursive;
     opacity:1;
   }
   
+  .imgbtm{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+ .imgbtm img{
+   width: 150px;
+ }
 /*footer*/
 footer {
 background: #5A443F;
