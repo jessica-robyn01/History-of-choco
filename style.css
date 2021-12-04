@@ -291,16 +291,51 @@ font-family: 'Pacifico', cursive;
     margin-bottom: 95px;
     margin-top: 230px;
   }
+
+  .carousel-cell img{
+    width:100%;
+  }
+
+  #pic1 {
+    background-image: url(images/pods.jpg);
+    background-size: cover;
+  }
+
+  #pic2 {
+    background-image: url(images/ferment.jpg);
+    background-size: cover;
+  }
+
+  #pic3 {
+    background-image: url(images/dry.jpg);
+    background-size: cover;
+  }
+
+  #pic4 {
+    background-image: url(images/roast.jpeg);
+    background-size: cover;
+  }
+
+  #pic5 {
+    background-image: url(images/grinding.jpg);
+    background-size: cover;
+  }
+
+  #pic6 {
+    background-image: url(images/hero2.jpg);
+    background-size: cover;
+  }
+
   .carousel-cell {
     width: 400px; /* full width */
-    height: 255px; /* height of carousel */
+    height: 300px; /* height of carousel */
     padding-right: 10px;
     background:#AFBCE7;
     text-align:center;
   }
   
   .carousel-cell.is-selected {
-    background: #E32C5D;
+    opacity: 0.5;
   }
   
   /* white circles */
@@ -392,14 +427,6 @@ font-family: 'Pacifico', cursive;
     opacity:1;
   }
   
-  .imgbtm{
-    text-align: center;
-    padding-bottom: 20px;
-  }
-
- .imgbtm img{
-   width: 150px;
- }
 /*footer*/
 footer {
 background: #5A443F;

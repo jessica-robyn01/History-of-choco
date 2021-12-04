@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="flickity.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="icon" href="images/favicon2.png">    
+    <link rel="icon" href="images/favicon2.png">  
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">  
     <title> The History of Chocolate </title>
 </head>
 <body>
@@ -55,7 +56,7 @@
       </div>
       
       <div class="cards">
-      <div class="card1" >
+      <div class="card1" data-aos="zoom-in-right">
         <div class="card1info">
         <h1> The Mayans </h1>
         <p> The Mayans praised chocolate as the drink of the gods. Mayan chocolate was a revered brew made of roasted and ground cacao seeds mixed with chillies, water and cornmeal. Mayans poured this mixture from one pot to another, creating a thick foamy beverage called “xocolatl”, meaning “bitter water.” By the 15th century, the Aztecs used cocoa beans as currency. They believed that chocolate was a gift from the god Quetzalcoatl, and drank it as a refreshing beverage, an aphrodisiac, and even to prepare for war. </p>
@@ -63,7 +64,7 @@
           <img src="images/culture.jpeg">
       </div>
         
-      <div class="card2">
+      <div class="card2" data-aos="zoom-in-left">
         <img src="images/wealthy.jpeg">
         <div class="card2info">
         <h1> Spain & Europe </h1>
@@ -72,7 +73,7 @@
           </div>
       </div>
       
-      <div class="card3">
+      <div class="card3" data-aos="zoom-in-right">
         <div class="card1info">
         <h1> Chocolate Revolution </h1>
         <p> Royals and the upper classes consumed chocolate for its health benefits as well as its decadence.
@@ -83,12 +84,18 @@
       </div>
       
       <div class="main-carousel">
-        <div class="carousel-cell"> Plucking the Pods</div>
-        <div class="carousel-cell">Fermenting the cocoa seeds</div>
-        <div class="carousel-cell"> Drying the cocoa seeds</div>
-         <div class="carousel-cell"> Roasting and Winnowing</div>
-        <div class="carousel-cell"> Grinding the Cocoa Nibs</div>
-        <div class="carousel-cell"> Blending Cocoa liquor</div>
+        <div id="pic1" class="carousel-cell"> 
+          <p>Step 1. Plucking the Pods</p></div>
+        <div id="pic2" class="carousel-cell">
+          <p>Step 2. Fermenting the cocoa seeds</p></div>
+        <div id="pic3" class="carousel-cell"> 
+          <p>Step 3. Drying the cocoa seeds</p></div>
+         <div id="pic4" class="carousel-cell">
+           <p>Step 4. Roasting and Winnowing</p></div>
+        <div id="pic5" class="carousel-cell"> 
+          <p>Step 5. Grinding the Cocoa Nibs</p></div>
+        <div id="pic6" class="carousel-cell">
+          <p>Step 6. Blending Cocoa liquor</p></div>
       </div>
         
       
@@ -142,16 +149,22 @@
       </div>
         
         </div>
-
-        <div class="imgbtm">
-          <img src="images/swirl.png">
-        </div>
       
        
       <footer>
-        <h2>copyright</h2>
+        <h2>© 2021 TheChocolateConnoisseur</h2>
       </footer>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          offset: 300,
+          duration: 1000,
+        });
+      </script>
+
   <script src ="flickity.pkgd.min.js"></script>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>  
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="flickity.js"></script>  
 </body>
 </html>
