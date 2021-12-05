@@ -20,7 +20,7 @@ https://flickity.metafizzy.co
   height: 100%;
 }
 
-/* draggable */
+/* draggable 
 
 .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
@@ -41,6 +41,8 @@ https://flickity.metafizzy.co
   cursor: grabbing;
 }
 
+*/
+
 /* ---- flickity-button ---- */
 
 .flickity-button {
@@ -48,11 +50,7 @@ https://flickity.metafizzy.co
   background: hsla(0, 0%, 100%, 0.75);
   border: none;
   color: #333;
-}
-
-.flickity-button:hover {
-  background: white;
-  cursor: pointer;
+  opacity: 0;
 }
 
 .flickity-button:focus {
@@ -117,6 +115,7 @@ https://flickity.metafizzy.co
   list-style: none;
   text-align: center;
   line-height: 1;
+  opacity: 0;
 }
 
 .flickity-rtl .flickity-page-dots { direction: rtl; }

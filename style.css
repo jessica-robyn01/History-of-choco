@@ -326,6 +326,16 @@ font-family: 'Pacifico', cursive;
     background-size: cover;
   }
 
+  .main-carousel p{
+    background:rgb(193, 222, 165);
+    position: relative;
+    top: 230px;
+    padding: 20px;
+    margin-right: -20px;
+    font-family: 'Raleway', sans-serif;
+    color:#5A443F;
+  }
+
   .carousel-cell {
     width: 400px; /* full width */
     height: 300px; /* height of carousel */
@@ -333,9 +343,9 @@ font-family: 'Pacifico', cursive;
     background:#AFBCE7;
     text-align:center;
   }
-  
-  .carousel-cell.is-selected {
-    opacity: 0.5;
+ 
+  .carousel-cell.is-selected{
+    opacity: .5;
   }
   
   /* white circles */
