@@ -441,5 +441,27 @@ font-family: 'Pacifico', cursive;
 footer {
 background: #5A443F;
 margin-bottom: 0px;
-height: 95px;
+height: 115px;
+display:flex;
+align-items: center;
+justify-content: center;
+justify-content: space-between;
+}
+
+footer h2{
+color: #FFFBF0;
+font-family: 'Pacifico', cursive;
+padding-left: 200px;
+}
+
+footer img{
+  width: 65px;
+  height:65px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.footing{
+  padding-right: 200px;
+  padding-top: 5px;
 }
