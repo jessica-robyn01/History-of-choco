@@ -489,6 +489,11 @@ font-family: 'Pacifico', cursive;
     color: #FFFBF0;
     width: 600px;
   }
+
+  .modal-content img{
+    width: 250px;
+    margin-top: 35px;
+  }
   
   /* The Close Button */
   .close {
